@@ -17,7 +17,9 @@
   background-color: rgb(255, 0, 157);
 }
 
-
+.wide{
+  width: 100%;
+}
 
 .filler{
   height: 90vh  ;

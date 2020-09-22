@@ -90,9 +90,11 @@ class Memory extends Component {
     return (
 
       <div className="page dark">
-        <header className="magenta">
-          BEAUTIFULL MEMORY GAME
+        <header className="magenta wide">
+          MEMORY GAME
         </header>
+
+        In this game you must find pairs of cards.
 
         <section className = "memory">
           <GuessCount guesses={guesses} />
