@@ -5,18 +5,18 @@ import './Navigation.css'
 function Navigation(props) {
     return(
       <div className = "navigation magenta">
-        <Link to = "/">
+        <Link to = "/myreactwebsite">
           Main Page
         </Link>
         
         <ul className = "pageslist">
           <li>
-            <Link to = "/memory">
+            <Link to = "/myreactwebsite/memory">
               Memory
             </Link>
           </li>
           <li>
-            <Link to = "/">
+            <Link to = "/myreactwebsite/pendu">
               Pendu
             </Link>
           </li>

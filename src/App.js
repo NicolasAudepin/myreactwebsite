@@ -12,8 +12,8 @@ function App() {
       <Router className = "dark">
         <Navigation />
         <Switch>
-        <Route path = "/" exact component = {() => <Home/>} />
-        <Route path = "/memory" exact component = {() => <Memory/>} />
+        <Route path = "/myreactwebsite" exact component = {() => <Home/>} />
+        <Route path = "/myreactwebsite/memory" exact component = {() => <Memory/>} />
 
         </Switch>
 
