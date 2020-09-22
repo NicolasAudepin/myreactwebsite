@@ -11,11 +11,7 @@
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.3"
   },
-<<<<<<< Updated upstream
-  "homepage": "nicolasaudepin.github.io/myreactwebsite",
-=======
   "homepage": "https://NicolasAudepin.github.io/myreactwebsite",
->>>>>>> Stashed changes
   "scripts": {
     "predeploy" : "npm run build",
     "deploy" : "gh-pages -d build",
