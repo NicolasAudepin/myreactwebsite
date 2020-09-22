@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/nicolasaudepin.github.io/myreactwebsite/static/css/main.5f361e03.chunk.css",
+    "main.js": "/nicolasaudepin.github.io/myreactwebsite/static/js/main.e0b72853.chunk.js",
+    "main.js.map": "/nicolasaudepin.github.io/myreactwebsite/static/js/main.e0b72853.chunk.js.map",
+    "runtime-main.js": "/nicolasaudepin.github.io/myreactwebsite/static/js/runtime-main.fa0b6d22.js",
+    "runtime-main.js.map": "/nicolasaudepin.github.io/myreactwebsite/static/js/runtime-main.fa0b6d22.js.map",
+    "static/js/2.16c2072c.chunk.js": "/nicolasaudepin.github.io/myreactwebsite/static/js/2.16c2072c.chunk.js",
+    "static/js/2.16c2072c.chunk.js.map": "/nicolasaudepin.github.io/myreactwebsite/static/js/2.16c2072c.chunk.js.map",
+    "index.html": "/nicolasaudepin.github.io/myreactwebsite/index.html",
+    "precache-manifest.8590da384e0cb6448e092eb24adfa661.js": "/nicolasaudepin.github.io/myreactwebsite/precache-manifest.8590da384e0cb6448e092eb24adfa661.js",
+    "service-worker.js": "/nicolasaudepin.github.io/myreactwebsite/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "/nicolasaudepin.github.io/myreactwebsite/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.16c2072c.chunk.js.LICENSE.txt": "/nicolasaudepin.github.io/myreactwebsite/static/js/2.16c2072c.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/nicolasaudepin.github.io/myreactwebsite/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.fa0b6d22.js",
+    "static/js/2.16c2072c.chunk.js",
+    "static/css/main.5f361e03.chunk.css",
+    "static/js/main.e0b72853.chunk.js"
+  ]
+}
