@@ -36,6 +36,8 @@
     ]
   },
   "devDependencies": {
+    "lodash": "^4.17.20",
+    "lodash.shuffle": "^4.2.0",
     "react-scripts": "^3.4.3"
   }
 }

@@ -5,6 +5,18 @@
   background-color:  rgb(2, 4, 29);
 }
 
+.dark{
+
+  color: white;
+  background-color: rgb(6, 6, 20);
+
+}
+
+.magenta {
+  color: white;
+  background-color: rgb(255, 0, 157);
+}
+
 
 
 .filler{

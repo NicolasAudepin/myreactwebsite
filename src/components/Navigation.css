@@ -1,12 +1,29 @@
 .navigation {
-    background-color: rgb(255, 0, 255);
-    color:  white;
+    
     font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
     font-weight: 700;;
     height: 8vh;
+
+    display: flex;
+    flex-direction: row;
         
     align-items:center;
     vertical-align: center;
     justify-content:center;
+}
+
+.pagelist{
+    flex-direction: row;
+}
+
+a:-webkit-any-link {
+    color: white;
+    text-decoration: none;
+    cursor: auto;
+}
+
+ul{
+    display: flex;
+    flex-direction: column;
 }
