@@ -1,0 +1,13 @@
+
+.letter {
+    color : white;
+    display: block ;
+
+    flex: 1 1 ;
+    flex-basis: 7vw;
+    flex-direction: row;
+    background-color: darkslategrey;
+    
+
+
+}
