@@ -1,18 +1,21 @@
 import React from 'react';
+import {BrowserRouter as Router, Route, Switch} from 'react-router-dom'
+
+import Navigation from './components/Navigation' 
 import './App.css';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <div className="App-logo" > BOOOM </div>
-        <p>
-          hey
-        </p>
-        
-        <div className="App-logo" > les tuto c'est lent  </div>
+      <Router>
+        <Navigation />
 
-      </header>
+      </Router>
+      <div className = "filler">
+        
+      </div>
+      
     </div>
   );
 }

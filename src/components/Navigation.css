@@ -1,0 +1,12 @@
+.navigation {
+    background-color: rgb(255, 0, 255);
+    color:  white;
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+    font-weight: 700;;
+    height: 8vh;
+        
+    align-items:center;
+    vertical-align: center;
+    justify-content:center;
+}
