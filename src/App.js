@@ -6,18 +6,13 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <p className="App-logo" > BOOOM </p>
+        <div className="App-logo" > BOOOM </div>
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          FRERO Y A QUOIIIIII
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        
+        <div className="App-logo" > les bruits de gorge dans le micro </div>
+
       </header>
     </div>
   );
