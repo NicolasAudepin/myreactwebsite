@@ -6,18 +6,23 @@ function Navigation(props) {
     return(
       <div className = "navigation magenta">
         <Link to = "/myreactwebsite">
-          Main Page
+          MAIN PAGE
         </Link>
         
         <ul className = "pageslist">
-          <li>
+        <li>
             <Link to = "/myreactwebsite/memory">
               Memory
             </Link>
           </li>
           <li>
+            <Link to = "/myreactwebsite/memorysimple">
+              Memory Simple
+            </Link>
+          </li>
+          <li>
             <Link to = "/myreactwebsite/pendu">
-              Pendu
+              Hang-man
             </Link>
           </li>
         </ul>

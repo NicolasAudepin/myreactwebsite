@@ -20,10 +20,10 @@
 a:-webkit-any-link {
     color: white;
     text-decoration: none;
-    cursor: auto;
+    cursor: pointer;
 }
 
 ul{
-    display: flex;
-    flex-direction: column;
+    list-style: none;
+    column-count: 4;
 }

@@ -1,28 +1,49 @@
-.memory > .card {
-    font-size: 2em;
-    flex: 1 1 calc(100% / 6 - 0.4em);
-    outline: 0.08em solid silver;
-    margin: 0.2em;
-    display: flex;
-    cursor: default;
+.cardgrid > .card {
+
+  border-radius: 1vh;
+  border: 0.1em solid silver;
+  font-size: 1.8em;
+  width: calc(100% / 6 - 0.2em - 2vh);
+  height: calc(100% / 6 - 0.2em - 2vh);
+  margin: 0.2em;
+  display: flex;
+  justify-content: center;
+  cursor: default;
+}
+
+
+.cardgridsimple > .card {
+
+  border-radius: 1vh;
+  font-size: 2em;
+  flex: 1 1 calc(100% / 4 - 1em);
+  border: 0.1em solid silver;
+  
+  margin: 0.2em;
+  display: flex;
+  cursor: default;
+}
+
+  .card.hidden {
+    background: rgb(141, 52, 141);
   }
   
-  .memory > .card.hidden {
-    background: white;
+  .card.justMatched,
+  .card.justMismatched {
+    border-color: green;
+    background-color: white;
+  }
+  .card.justMismatched {
+    border-color: red;
+    background-color: white;
   }
   
-  .memory > .card.justMatched,
-  .memory > .card.justMismatched {
-    outline: 0.1em solid green;
-  }
-  .memory > .card.justMismatched {
-    outline-color: red;
-  }
-  
-  .memory > .card.visible {
+  .card.visible {
     cursor: not-allowed;
+    border-color: silver;
+    background-color: white;
   }
   
-  .memory > .card > .symbol {
+  .card > .symbol {
     margin: auto;
   }

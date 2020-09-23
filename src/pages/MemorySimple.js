@@ -7,14 +7,14 @@ import Card from '../components/memory/Card'
 import GuessCount from '../components/memory/GuessCount'
 import HallOfFame,{FAKE_HOF} from '../components/memory/HallOfFame'
 import HighScoreInput from '../components/memory/HighScoreInput'
-import '../App.css'
-const SIDE = 6
-export const SYMBOLS = '😀🎉💖🎩🐶🐱🦄🐬🌍🌛🌞💫🍎🍌🍓🍐🍟🍿'
+
+const SIDE = 4
+export const SYMBOLS = '😀🎉💖🎩🌍🌛🌞🍟'
 
 
 const VISUAL_PAUSE_MSECS=750
 
-class Memory extends Component {
+class MemorySimple extends Component {
   state = {
     cards: this.generateCards(),
     currentPair: [],
@@ -94,10 +94,10 @@ class Memory extends Component {
 
         In this game you must find pairs of cards.
 
-        <section className = " darksection memory round">
+        <section className = "memory darksection round">
           MEMORY
           <GuessCount guesses={guesses} />
-          <div className="cardgrid">
+          <div className="cardgridsimple">
             {cards.map((card,index) => (
             <Card
               card = {card}
@@ -126,4 +126,4 @@ class Memory extends Component {
   }
 }
 
-export default Memory
+export default MemorySimple

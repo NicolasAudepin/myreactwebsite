@@ -8,10 +8,30 @@
 }
 
 .memory{
-    width: 100%;
+
+    max-width: 50vh;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+}
+
+  
+.cardgrid{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    
+    
+}
+
+.cardgridsimple{
+    
     display: flex;
     flex-wrap: wrap;
 }
+
 
 .keyboard{
     width: 100%;
