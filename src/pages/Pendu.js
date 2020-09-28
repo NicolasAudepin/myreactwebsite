@@ -4,7 +4,8 @@ import React, {Component} from 'react';
 import LetterButton from '../components/pendu/LetterButton'
 import WordShower from '../components/pendu/WordShower'
 import Counter from '../components/pendu/Counter.js'
-
+import '../App.css'; 
+import './Pages.css'
 const ALPHABET = 'abcdefghijklmnopqrstuvwxyz'
 
 class Pendu extends Component {
@@ -42,23 +43,27 @@ class Pendu extends Component {
     return(
       <div className="page dark pendu">
         <header className="App-header">
-          Hangman
+          Hangman 
         </header>
-        <section className = "App-body wide">
+        <div className = "explaination">
+          In this game you need to find a given word in the smallest amount of guesses possible.
+        </div>
+        <section className = "hangman round darksection">
           <Counter guesses = {guesses}/>
-          <section className = "word wide">
+          <section className = "word">
           {wordaslist.map((letter,index)=>(
             <div className ={`wordletter ${letter}`} key = {index}>
               {letterTried.includes(letter) ? letter : "_"}
             </div>
-          ))}</section>
+          ))}
+          </section>
           
           <WordShower 
             wordaslist= {wordaslist}
             lettertried = {letterTried}
           />
 
-          <section className = "keyboard wide">
+          <section className = "keyboard wide round">
             {
      
               alphabetlist.map((letter,index) => (

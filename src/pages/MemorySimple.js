@@ -92,8 +92,12 @@ class MemorySimple extends Component {
       <div className="page dark">
 
 
-        In this game you must find pairs of cards.
 
+        Memory
+
+        <div className = "explaination">
+          In this game you must find pairs of cards.
+        </div>
         <section className = "memory darksection round">
           MEMORY
           <GuessCount guesses={guesses} />

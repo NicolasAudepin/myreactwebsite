@@ -37,6 +37,17 @@ table, th, td {
   width: 100%;
 }
 
+.word{
+  justify-content: center;
+  display: flex;
+  flex: auto;
+  flex-direction: row;
+}
+
+.wordletter{
+  margin: 1%;
+}
+
 .filler{
   height: 90vh  ;
 }

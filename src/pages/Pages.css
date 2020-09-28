@@ -17,7 +17,21 @@
     align-items: center;  
 }
 
-  
+.explaination{
+    margin: 2vw;
+}
+
+.hangman{
+
+    max-width: 50vh;
+    max-height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+}
+
+
 .cardgrid{
     justify-content: center;
     display: flex;
@@ -34,7 +48,8 @@
 
 
 .keyboard{
-    width: 100%;
+    justify-content: center;
     display: flex;
     flex-wrap: wrap;
+    
 }

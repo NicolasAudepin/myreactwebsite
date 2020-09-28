@@ -1,7 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
-import './Counter.css'
+import './pendu.css'
 
 const Counter = ({guesses}) => <div className="guesses" >{guesses}</div>
 
