@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 
 const WordShower = (wordaslist,lettertried) =>(
     <div>
-        Guesse the following word
+        Guess the following word
         {
             wordaslist[8] 
         }
