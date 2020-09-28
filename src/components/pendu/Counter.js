@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 
 import './pendu.css'
 
-const Counter = ({guesses}) => <div className="guesses" >{guesses}</div>
+const Counter = ({guesses}) => <div className="guesses dark round" >Wrong guesses : {guesses}</div>
 
 Counter.propTypes = {
     guesses: PropTypes.number.isRequired

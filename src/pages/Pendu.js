@@ -23,14 +23,21 @@ class Pendu extends Component {
 
   //arrow fx for bindding
   handleLetterClick = (index) => {
-    const { guesses} = this.state
+    const { guesses,word} = this.state
+    const wordaslist = word.split('');
     const newGuesses =guesses +1
     const letterTried = this.state.letterTried
     const letter = this.state.alphabetlist[index]
     console.log(index,letter)
     if (!letterTried.includes(letter)){
-      this.setState({guesses : newGuesses})
+      
       this.setState({letterTried : [...letterTried, letter]})
+      
+      if (!wordaslist.includes(letter)){
+        this.setState({guesses : newGuesses})
+      }
+    
+      
     }
     
   }

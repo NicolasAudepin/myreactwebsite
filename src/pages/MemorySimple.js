@@ -99,8 +99,11 @@ class MemorySimple extends Component {
           In this game you must find pairs of cards.
         </div>
         <section className = "memory darksection round">
-          MEMORY
-          <GuessCount guesses={guesses} />
+          <div className = "dark round">
+            Guesses : 
+            <GuessCount guesses={guesses} />
+          </div>
+          
           <div className="cardgridsimple">
             {cards.map((card,index) => (
             <Card

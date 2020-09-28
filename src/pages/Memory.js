@@ -98,8 +98,10 @@ class Memory extends Component {
         </div>
         
         <section className = " darksection memory round">
-          MEMORY
-          <GuessCount guesses={guesses} />
+          <div className = "dark round">
+            Guesses : 
+            <GuessCount guesses={guesses} />
+          </div>
           <div className="cardgrid">
             {cards.map((card,index) => (
             <Card
